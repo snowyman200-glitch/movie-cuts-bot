@@ -64,7 +64,7 @@ async def handle_movie(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if movie is None:
         await update.message.reply_text(
-            "В этом фильме ничего не вырезали / фильма нет в базе."
+            "Фильма нет в базе."
         )
         return
 
