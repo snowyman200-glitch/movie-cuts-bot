@@ -11,7 +11,7 @@ from telegram.ext import (
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1CMuCp5qNuPfLaVVbgOB1oJdCMyZMbQF4rvE0yE_u6II/export?format=csv&gid=1318330528"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/130UnXpyRdqGOfSoBmpcF3dGb2uG0j9Hu8uf062ZKeiE/export?format=csv&gid=1318330528"
 
 COL_TITLE = "Название"
 COL_NOTE = "Примечание"
