@@ -13,7 +13,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 SHEET_URL = "https://docs.google.com/spreadsheets/d/130UnXpyRdqGOfSoBmpcF3dGb2uG0j9Hu8uf062ZKeiE/export?format=csv&gid=1318330528"
 
-COL_TITLE = "Название"
+COL_TITLE = "Название (Локализованное)"
 COL_NOTE = "Примечание"
 
 def normalize(text: str) -> str:
